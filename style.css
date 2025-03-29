@@ -1,0 +1,98 @@
+/*home page background*/
+
+.myVideo {
+    position: fixed;
+    width: 180px;
+    margin-bottom: 0%;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+
+/* Header */
+
+
+/*navigation bar*/
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    font-family: monospace;
+    color: chartreuse;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.navbarElement a {
+    color: darkgreen;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    transform: scaleX(1);
+    transition: 0.3s ease;
+}
+
+.navbarElement a:hover {
+    color: chartreuse;
+    cursor: help;
+    transform: scaleX(1);
+}
+
+
+/* Our Team dropdown content */
+
+.OurTeam {
+    position: relative;
+    display: inline-block;
+    font-family: monospace;
+    padding: none;
+}
+
+.OurTeam .dropbtn {
+    background-color: rgba(0, 0, 0, 0.01);
+    color: darkgreen;
+    border: none;
+    cursor: help;
+    transform: scaleX(1);
+    transition: 0.3s ease;
+}
+
+.OurTeam .dropbtn:hover {
+    color: chartreuse;
+    transform: scaleX(1);
+}
+
+.OurTeam-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.9);
+    min-width: 160px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.OurTeam-content a {
+    color: darkgreen;
+    padding: 12px 16px;
+    text-align: left;
+    text-decoration: none;
+    display: block;
+    transform: scaleX(1);
+    transition: 0.3s ease;
+}
+
+.OurTeam-content a:hover {
+    color: chartreuse;
+    cursor: help;
+    transform: scaleX(1);
+}
+
+.OurTeam:hover .OurTeam-content {
+    display: block;
+}
+
+
+/* Footer */
